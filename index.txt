@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title data-es="Ragknos Demian Fernández Agraz Rodríguez - CV" data-en="Ragknos Demian Fernández Agraz Rodríguez - CV">Ragknos Demian Fernández Agraz Rodríguez - CV</title>
+    <meta name="keywords" content="Data Engineer, Full-Stack, Entrepreneur, NEXCODE, CUCEI MART, Azure, Big Data, ETL, Python, JavaScript, Guadalajara, AI, Cloud, Data Analytics, Web Development, SQL, NoSQL, Machine Learning">
+    <meta name="description" data-es="Perfil profesional de Ragknos Demian Fernández Agraz Rodríguez: Data Engineer con experiencia en desarrollo Full-Stack, emprendimiento tecnológico y creación de contenido educativo." data-en="Professional profile of Ragknos Demian Fernández Agraz Rodríguez: Data Engineer with Full-Stack development experience, tech entrepreneurship, and educational content creation.">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        body {
+            background: #000000;
+            color: #999;
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+        h1, h2, h3, h4, h5 {
+            color: #ffffff;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .section {
+            padding-top: 70px;
+            padding-bottom: 70px;
+            height: auto !important;
+        }
+        #home {
+            background: url('images/home-bg.jpg') center center / cover no-repeat;
+            text-align: center;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            position: relative;
+        }
+        #home h1 {
+            border: 2px solid #D43F52;
+            color: #D43F52;
+            display: inline-block;
+            letter-spacing: 5px;
+            padding: 20px 30px;
+            margin-top: 120px;
+            margin-bottom: 30px;
+            font-size: 3em;
+        }
+        .typing-container {
+            font-family: 'Fira Code', monospace;
+            font-size: 2.2em;
+            font-weight: 700;
+            color: white;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid white;
+            width: fit-content;
+            margin: 0 auto;
+            min-height: 2.2em; 
+        }
+        @keyframes blink {
+            0%, 100% { border-color: white; }
+            50% { border-color: transparent; }
+        }
+        #home .btn {
+            background: transparent;
+            border: 2px solid #ffffff;
+            color: #ffffff;
+            font-size: 1.1em;
+            font-weight: bold;
+            width: 200px;
+            height: 60px;
+            line-height: 56px;
+            margin-top: 40px;
+            padding: 0;
+            transition: all 0.4s ease-in-out;
+        }
+        #home .btn:hover {
+            color: #D43F52;
+            border-color: transparent;
+            background-color: rgba(255,255,255,0.1);
+        }
+        .profile-container {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            width: 200px;
+            height: 200px;
+        }
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 5px solid rgb(255, 0, 0);
+            box-shadow: 0 0 15px rgba(255, 0, 10, 0.8);
+            object-fit: cover;
+        }
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+        .language-switcher button {
+            background-color: #D43F52;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+        .language-switcher button:hover {
+            background-color: #ff6347;
+        }
+        #work, #experience, #skills, #projects, #certifications, #platzi-profile {
+            background: #1a1a1a;
+            text-align: center;
+        }
+        h2 {
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+            font-size: 2.8em;
+        }
+        .rotate {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+        }
+        .professional-summary {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            color: #cccccc;
+        }
+        .database-list h4, .tech-list h4 {
+            font-size: 1.2em;
+            color: #D43F52;
+            margin-bottom: 15px;
+            width: 100%;
+            text-align: center;
+        }
+        .database-list ul, .tech-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            max-width: 90%;
+        }
+        .database-list li, .tech-list li {
+            background-color: #333;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 150px;
+            font-size: 0.85em;
+            transition: background-color 0.3s ease;
+        }
+        .database-list li:hover, .tech-list li:hover {
+            background-color: #D43F52;
+            cursor: default;
+        }
+        .contact-links {
+            margin-top: 50px;
+            padding: 25px;
+            background-color: #0d0d0d;
+            border-radius: 8px;
+        }
+        .contact-links h3 {
+            color: #fff;
+            margin-bottom: 30px;
+            font-size: 1.8em;
+        }
+        .contact-links a {
+            display: inline-block;
+            margin: 0 12px;
+            transition: transform 0.3s ease;
+        }
+        .contact-links a:hover {
+            transform: translateY(-5px);
+        }
+        .contact-links a .fa {
+            font-size: 3em;
+            color: #D43F52;
+            border: none;
+            width: auto;
+            height: auto;
+            line-height: normal;
+        }
+        .contact-links a .fa:hover {
+            color: #fff;
+            background: none;
+        }
+        .progress {
+            height: 8px;
+            background: #333;
+            margin-bottom: 25px;
+        }
+        .progress .progress-bar-danger {
+            background-color: #D43F52;
+            box-shadow: 0 0 5px #D43F52;
+        }
+        #skills span {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #eee;
+            display: block;
+            text-align: left;
+            max-width: 80%;
+            margin: 0 auto 8px auto;
+        }
+        #skills small {
+            font-weight: bold;
+            float: right;
+            margin-right: 10%;
+        }
+        .github-stats img {
+            max-width: 90%;
+            height: auto;
+            border: 1px solid #333;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+        #projects { background: #000; }
+        #projects .portfolio-thumb {
+            margin-bottom: 40px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        #projects .portfolio-thumb:hover {
+            transform: translateY(-10px);
+        }
+        #projects .portfolio-thumb img {
+            border-bottom: 2px solid #D43F52;
+        }
+        #projects .portfolio-overlay {
+            padding: 30px 20px;
+            background: #1a1a1a;
+            opacity: 1;
+            position: relative;
+            transform: none !important;
+            text-align: center;
+        }
+        #projects .portfolio-overlay h4 {
+            font-size: 1.5em;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        #projects .portfolio-overlay h5 {
+            font-size: 1.1em;
+            color: #D43F52;
+            margin-bottom: 15px;
+        }
+        #projects .portfolio-overlay p {
+            font-size: 0.9em;
+            color: #bbb;
+            margin-bottom: 25px;
+            min-height: 50px;
+        }
+        #projects .portfolio-overlay .project-link {
+            background: #D43F52;
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        #projects .portfolio-overlay .project-link:hover {
+            background-color: #fff;
+            color: #D43F52;
+        }
+        #projects .portfolio-overlay .project-link i {
+            margin-left: 5px;
+            color: inherit;
+        }
+        #certifications { background: #1a1a1a; }
+        #certifications h2 { margin-bottom: 30px; }
+        #certifications p {
+            max-width: 700px;
+            margin: 0 auto 50px auto;
+            color: #ccc;
+        }
+        #certifications .portfolio-thumb {
+            margin-bottom: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        #certifications .portfolio-thumb:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+        }
+        #certifications .portfolio-thumb img {
+            border-bottom: 1px solid #D43F52;
+        }
+        #certifications .portfolio-overlay {
+            padding: 20px 15px;
+            background: #0d0d0d;
+            opacity: 1;
+            position: relative;
+            transform: none !important;
+            text-align: center;
+            min-height: 100px;
+        }
+        #certifications .portfolio-overlay h4 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        #certifications .portfolio-overlay h5 {
+            font-size: 0.9em;
+            color: #D43F52;
+        }
+        .hidden-certs {
+            display: none;
+        }
+        .toggle-certs-btn {
+            background-color: #D43F52;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 30px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .toggle-certs-btn:hover {
+            background-color: #fff;
+            color: #D43F52;
+        }
+        #experience .experience-item {
+            background-color: #0d0d0d;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            text-align: left;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        #experience .experience-item h3 {
+            color: #D43F52;
+            margin-bottom: 5px;
+        }
+        #experience .experience-item h4 {
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+        #experience .experience-item ul {
+            list-style: disc;
+            padding-left: 20px;
+            color: #ccc;
+        }
+        #experience .experience-item ul li {
+            margin-bottom: 8px;
+        }
+        #experience .experience-item img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #platzi-profile {
+            background: #000;
+        }
+        #platzi-profile h2 { margin-bottom: 30px; }
+        #platzi-profile p {
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+            color: #ccc;
+        }
+        .platzi-profile-container {
+            padding: 30px;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+        .platzi-profile-container img {
+            max-width: 70%;
+            border: 3px solid #D43F52;
+            box-shadow: 0 0 10px rgba(255, 0, 10, 0.8);
+        }
+        .platzi-profile-container p {
+            font-size: 1.1em;
+            color: #eee;
+        }
+        .platzi-profile-container .btn {
+            background-color: #D43F52;
+            border-color: #D43F52;
+            font-size: 1.1em;
+            padding: 10px 25px;
+        }
+        .platzi-profile-container .btn:hover {
+            background-color: #fff;
+            color: #D43F52;
+            border-color: #fff;
+        }
+        #contact { background: #1a1a1a; }
+        #contact h2 { margin-bottom: 30px; }
+        #contact p {
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            color: #ccc;
+        }
+        .contact-buttons a {
+            margin: 15px 20px;
+            min-width: 250px;
+            padding: 18px 25px;
+            font-size: 1.3em;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .contact-buttons a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+        footer {
+            border-top: 1px solid #333;
+            background-color: #000;
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+        footer p.copyright {
+            font-size: 0.9em;
+            color: #666;
+        }
+        footer .social-icon {
+            margin-top: 15px;
+        }
+        footer .social-icon li a {
+            margin: 0 8px;
+            font-size: 2em;
+        }
+        footer .social-icon li a:hover {
+            color: #fff;
+        }
+        @media (max-width: 991px) {
+            .profile-container {
+                position: relative;
+                top: auto;
+                left: auto;
+                transform: none;
+                margin: 0 auto 40px auto;
+                width: 180px;
+                height: 180px;
+            }
+            #home h1 {
+                margin-top: 50px;
+                font-size: 2.5em;
+                padding: 15px 25px;
+            }
+            .typing-container {
+                font-size: 1.8em;
+                min-height: 1.8em; 
+            }
+            h2 {
+                font-size: 2.2em;
+            }
+            .rotate {
+                font-size: 1.5em;
+            }
+            .professional-summary {
+                font-size: 1.1em;
+            }
+            .media {
+                margin-bottom: 30px;
+            }
+            .contact-links a .fa {
+                font-size: 2.5em;
+                margin: 0 8px;
+            }
+            #projects .portfolio-overlay h4 {
+                font-size: 1.3em;
+            }
+            #projects .portfolio-overlay h5 {
+                font-size: 1em;
+            }
+            #certifications .portfolio-overlay h4 {
+                font-size: 1.1em;
+            }
+            #certifications .portfolio-overlay h5 {
+                font-size: 0.85em;
+            }
+            .platzi-profile-container img {
+                max-width: 90%;
+            }
+            .platzi-profile-container p {
+                font-size: 0.95em;
+            }
+            .platzi-profile-container .btn {
+                font-size: 1em;
+                padding: 8px 18px;
+            }
+            .contact-buttons a {
+                min-width: 90%;
+                font-size: 1.1em;
+            }
+            footer p.copyright {
+                font-size: 0.9em;
+            }
+        }
+        @media (max-width: 767px) {
+            #home {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+            #home h1 {
+                font-size: 2em;
+                letter-spacing: 3px;
+                padding: 10px 20px;
+            }
+            .typing-container {
+                font-size: 1.5em;
+                min-height: 1.5em; 
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            .rotate {
+                font-size: 1.2em;
+            }
+            .professional-summary {
+                font-size: 1em;
+                max-width: 95%;
+            }
+            .media {
+                padding: 15px;
+                min-height: auto;
+            }
+            .media .fa {
+                font-size: 1.8em;
+                width: 60px;
+                height: 60px;
+                line-height: 56px;
+                margin-bottom: 15px;
+            }
+            .media .media-heading {
+                font-size: 1.4em;
+            }
+            .database-list li, .tech-list li {
+                font-size: 0.8em;
+                padding: 5px 10px;
+            }
+            .contact-links h3 {
+                font-size: 1.5em;
+            }
+            .contact-links a .fa {
+                font-size: 2em;
+            }
+            #skills p {
+                font-size: 0.9em;
+            }
+            .skill-icons img {
+                width: 40px;
+                height: 40px;
+            }
+            .progress {
+                margin-bottom: 15px;
+            }
+            #skills span {
+                font-size: 1em;
+            }
+            #projects .portfolio-overlay p {
+                font-size: 0.85em;
+            }
+            #certifications p {
+                font-size: 0.9em;
+            }
+            .platzi-profile-container img {
+                max-width: 100%;
+            }
+            .platzi-profile-container p {
+                font-size: 0.95em;
+            }
+            .platzi-profile-container .btn {
+                font-size: 1em;
+                padding: 8px 18px;
+            }
+            .contact-buttons a {
+                min-width: 100%;
+                margin: 10px 0;
+                font-size: 1.1em;
+            }
+            footer p.copyright {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+     <div id="particles-js"></div>
+
+    <div id="fullpage">
+        <div id="home" class="section">
+            <div class="language-switcher">
+                <button id="langToggleBtn" data-lang="es">English</button>
+            </div>
+
+            <div class="profile-container wow fadeIn" data-wow-delay="0.5s">
+                <img src="images/Curriculum.jpeg" alt="Foto de perfil de Ragknos Demian" class="profile-image">
+            </div>
+            <h1 class="wow fadeInDown" data-wow-delay="0.7s">Ragknos Demian Fernández Agraz Rodríguez</h1>
+            <div style="display: flex; justify-content: center;" class="wow fadeInUp" data-wow-delay="0.9s">
+                <div id="typingText" class="typing-container" data-es-phrases='["Data Engineer", "Desarrollador Full-Stack", "Emprendedor Tech", "Creador de Contenido", "Data Analyst", "Músico Independiente"]' data-en-phrases='["Data Engineer", "Full-Stack Developer", "Tech Entrepreneur", "Content Creator", "Data Analyst", "Independent Musician"]'></div>
+            </div>
+            <a href="#work" class="btn btn-default smoothScroll wow zoomIn" data-wow-delay="1.2s" data-es="Explorar Perfil" data-en="Explore Profile">Explorar Perfil</a>
+        </div>
+        <div class="section" id="work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow bounceIn">
+                        <h2 data-es="Perfil Profesional" data-en="Professional Profile">Perfil Profesional</h2>
+                    </div>
+                    <h2 class="rotate text-center wow fadeIn" data-wow-delay="0.3s" data-es="Data Engineer | Desarrollador Full-Stack | Emprendedor Tech | Creador de Contenido | Data Analyst | Músico Independiente" data-en="Data Engineer | Full-Stack Developer | Tech Entrepreneur | Content Creator | Data Analyst | Musician">
+                        Data Engineer | Full-Stack Developer | Tech Entrepreneur | Content Creator | Data Analyst | Musician
+                    </h2>
+                </div>
+
+                <div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center wow fadeIn" data-wow-delay="0.5s">
+						<p class="professional-summary" data-es="Ingeniero de Datos con un año de experiencia en Derevo, especializado en el diseño, implementación y optimización de pipelines ETL/ELT en entornos cloud. Domino tecnologías clave como Microsoft Azure (Data Factory, Synapse, Data Lake), Databricks y Apache Kafka, así como la administración avanzada de bases de datos relacionales y NoSQL.<br><br>Fundador de NEXCODE, plataforma educativa tecnológica, y CUCEI MART, e-commerce universitario, donde lideré el desarrollo Full-Stack (Python, JavaScript, Next.js, Node.js) y la arquitectura de soluciones escalables. Mis proyectos integran backend, frontend, visualización de datos y gestión ágil de equipos.<br><br>También soy artista independiente con música publicada en Spotify, lo que complementa mi perfil con creatividad, visión estética y habilidades de autogestión multidisciplinarias." data-en="Data Engineer with one year of experience at Derevo, specializing in the design, implementation, and optimization of ETL/ELT pipelines in cloud environments. I master key technologies such as Microsoft Azure (Data Factory, Synapse, Data Lake), Databricks, and Apache Kafka, as well as advanced administration of relational and NoSQL databases.<br><br>Founder of NEXCODE, a technological educational platform, and CUCEI MART, a university e-commerce, where I led Full-Stack development (Python, JavaScript, Next.js, Node.js) and the architecture of scalable solutions. My projects integrate backend, frontend, data visualization, and agile team management.<br><br>I am also an independent artist with music published on Spotify, which complements my profile with creativity, aesthetic vision, and multidisciplinary self-management skills.">
+							Ingeniero de Datos con un año de experiencia en Derevo, especializado en el diseño, implementación y optimización de pipelines ETL/ELT en entornos cloud. Domino tecnologías clave como Microsoft Azure (Data Factory, Synapse, Data Lake), Databricks y Apache Kafka, así como la administración avanzada de bases de datos relacionales y NoSQL.<br><br>
+							Fundador de NEXCODE, plataforma educativa tecnológica, y CUCEI MART, e-commerce universitario, donde lideré el desarrollo Full-Stack (Python, JavaScript, Next.js, Node.js) y la arquitectura de soluciones escalables. Mis proyectos integran backend, frontend, visualización de datos y gestión ágil de equipos.<br><br>
+							También soy artista independiente con música publicada en Spotify, lo que complementa mi perfil con creatividad, visión estética y habilidades de autogestión multidisciplinarias.
+					</div>
+				</div>
+                <div class="col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+				<div class="media">
+					<div class="media-object media-left">
+						<i class="fa fa-tasks"></i> </div>
+					<div class="media-body">
+						<h3 class="media-heading" data-es="Metodologías & Gestión" data-en="Methodologies & Management">Metodologías & Gestión</h3>
+						<div class="database-list">
+							<ul>
+								<li data-es="Metodologías Ágiles (Scrum/Kanban)" data-en="Agile Methodologies (Scrum/Kanban)">Metodologías Ágiles (Scrum/Kanban)</li>
+								<li data-es="Gestión de Proyectos" data-en="Project Management">Gestión de Proyectos</li>
+								<li data-es="Liderazgo de Equipos" data-en="Team Leadership">Liderazgo de Equipos</li>
+								<li data-es="Pensamiento de Diseño (Design Thinking)" data-en="Design Thinking">Pensamiento de Diseño (Design Thinking)</li>
+								<li data-es="Lean Startup" data-en="Lean Startup">Lean Startup</li>
+								<li data-es="Desarrollo Iterativo" data-en="Iterative Development">Desarrollo Iterativo</li>
+								<li data-es="Automatización de Procesos" data-en="Process Automation">Automatización de Procesos</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+                    <div class="col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="media">
+                            <div class="media-object media-left">
+                                <i class="fa fa-database"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading" data-es="Bases de Datos" data-en="Databases">Bases de Datos</h3>
+                                <div class="database-list">
+                                    <ul>
+                                        <li>SQL</li>
+                                        <li>MariaDB</li>
+                                        <li>PostgreSQL</li>
+                                        <li>DBeaver</li>
+                                        <li>MongoDB</li>
+                                        <li>CosmosDB</li>
+                                        <li>Snowflake</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="1s">
+                        <div class="media">
+                            <div class="media-object media-left">
+                                <i class="fa fa-cloud"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading" data-es="Cloud & Big Data" data-en="Cloud & Big Data">Cloud & Big Data</h3>
+                                <div class="database-list">
+                                    <ul>
+                                        <li>Microsoft Azure</li>
+                                        <li>Azure Synapse Analytics</li>
+                                        <li>Azure Data Factory</li>
+                                        <li>Azure Data Lake Storage</li>
+                                        <li>Databricks</li>
+                                        <li>Apache Kafka</li>
+                                        <li>QDI</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.9s">
+                        <h2 data-es="Mi Stack Tecnológico y Competencias Clave" data-en="My Tech Stack & Key Competencies"></h2>
+                        <h4 data-es="Ingeniería de Datos | Desarrollo Full-Stack | Innovación" data-en="Data Engineering | Full-Stack Development | Innovation"></h4>
+                        <p data-es="" data-en=""></p>
+                    <div class="tech-badges">
+                        <h3 data-es="🛠️ Lenguajes y Herramientas:" data-en="🛠️ Languages & Tools:"></h3>
+                        <img src="https://img.shields.io/badge/-Python-333333?style=flat&logo=python" alt="Python">
+                        <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white" alt="SQL">
+                        <img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" alt="Git">
+                        <img src="https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624" alt="Linux">
+                        <img src="https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu" alt="Ubuntu">
+                        <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" alt="GitHub">
+                        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+                        <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
+                        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white" alt="PowerShell">
+                    </div>
+                    <div class="skill-icons">
+                        <h4 data-es="Lenguajes de Programación y Frameworks:" data-en="Programming Languages & Frameworks:"></h4>
+                        <img src="https://skillicons.dev/icons?i=js,nodejs,ts,c,css,html,express,nextjs,react,angular,cs,dotnet&theme=dark" alt="Programming Languages & Frameworks">
+                    </div>
+                    <div class="tech-badges">
+                        <h4 data-es="Software y Herramientas 🛠:" data-en="Software & Tools 🛠:"></h4>
+                        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code icon">
+                        <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion icon">
+                        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman icon">
+                        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma icon">
+                        <br><br>
+                        <strong data-es="(Nuevas Tecnologías y en Aprendizaje):" data-en="(New Technologies & Learning):"></strong><br>
+                        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel icon">
+                        <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase icon">
+                    </div>
+                    <div class="tech-badges">
+                        <h4 data-es="Productividad y Data Visualization:" data-en="Productivity & Data Visualization:"></h4>
+                        <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Microsoft Excel icon">
+                        <img src="https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" alt="Microsoft PowerPoint icon">
+                        <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" alt="Microsoft Word icon">
+                        <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva icon">
+                        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI icon">
+                        <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Microsoft Azure icon">
+                        <img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft icon">
+                    </div>
+                    <div class="col-md-6 col-xs-12 wow fadeInRight" data-wow-delay="0.9s">
+                        <span class="text-top" data-es="Desarrollo Backend & Frontend" data-en="Backend & Frontend Development"> <small>93%</small></span>
+                        <div class="progress wow fadeIn" data-wow-delay="1.0s">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="93"
+                                aria-valuemin="0" aria-valuemax="100" style="width:93%;"></div>
+                        </div>
+                        <span data-es="Inglés" data-en="English"> <small>80%</small></span>
+                        <div class="progress wow fadeIn" data-wow-delay="1.1s">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            </div>
+                        </div>
+                        <span data-es="Habilidades Blandas y Metodologías" data-en="Soft Skills & Methodologies"> <small>75%</small></span>
+                        <div class="progress wow fadeIn" data-wow-delay="1.2s">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100" style="width:75%;">
+                            </div>
+                        </div>
+                        <span data-es="Ingeniería de Datos & ETL" data-en="Data Engineering & ETL"> <small>70%</small></span>
+                        <div class="progress wow fadeIn" data-wow-delay="1.3s">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                            </div>
+                        </div>
+                        <span data-es="Emprendimiento y Gestión de Proyectos" data-en="Entrepreneurship & Project Management"> <small>65%</small></span>
+                        <div class="progress wow fadeIn" data-wow-delay="1.4s">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100" style="width:65%;">
+                            </div>
+                        </div>
+                        <span data-es="Análisis y Visualización de Datos" data-en="Data Analysis & Visualization"> <small>60%</small></span>
+                        <div class="progress wow fadeIn" data-wow-delay="1.5s">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+					<div class="col-md-12">
+						<div class="github-stats wow fadeInUp" data-wow-delay="1.7s">
+							<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="GitHub Stats Divider" style="width: 100%; height: 2px;">
+							<br><br>
+							<h3 data-es="Estadísticas de mi perfil personal en GitHub:" data-en="My personal GitHub profile statistics:"></h3>
+							<img src="https://github-readme-stats.vercel.app/api?username=Demian369369&count_private=true&show_icons=true&theme=tokyonight" alt="GitHub Stats for Demian369369">
+							<br>
+							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Demian369369&size_weight=0.5&count_weight=0.5&layout=compact&theme=tokyonight" alt="Top Languages for Demian369369">
+							<br><br>
+							<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="GitHub Stats Divider" style="width: 100%; height: 2px;">
+							<br><br>
+							<h3 data-es="Estadísticas de NEXCODE en GitHub:" data-en="NEXCODE GitHub statistics:"></h3>
+							<img src="https://github-readme-stats.vercel.app/api?username=NEXCODEMX&count_private=true&show_icons=true&theme=tokyonight" alt="GitHub Stats for NEXCODEMX">
+							<br>
+							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NEXCODEMX&size_weight=0.5&count_weight=0.5&layout=compact&theme=tokyonight" alt="Top Languages for NEXCODEMX">
+							<br><br>
+							<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="GitHub Stats Divider" style="width: 100%; height: 2px;">
+						</div>
+					</div>
+				</div>
+				 <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="contact-links wow fadeInUp" data-wow-delay="1.2s" style="margin-top: 50px;">
+                            <h3 data-es="<i class='fa fa-handshake-o'></i> Conecta Conmigo" data-en="<i class='fa fa-handshake-o'></i> Connect With Me"></h3>
+                            <a href="https://www.linkedin.com/in/ragknos-demi%C3%A1n-fern%C3%A1ndez-agraz-rodr%C3%ADguez-9ab523317/" target="_blank" class="wow zoomIn" data-wow-delay="1.4s" aria-label="LinkedIn Profile">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Demian369369" target="_blank" class="wow zoomIn" data-wow-delay="1.6s" aria-label="GitHub Profile">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a href="https://soundcloud.com/ragknos" target="_blank" class="wow zoomIn" data-wow-delay="1.8s" aria-label="SoundCloud Profile">
+                                <i class="fa fa-soundcloud"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@DemianRagknos/videos" target="_blank" class="wow zoomIn" data-wow-delay="2.0s" aria-label="YouTube Channel (Link to be updated)"> <i class="fa fa-youtube-play"></i>
+                            </a>
+                            <a href="https://platzi.com/p/demianrgz23/" target="_blank" class="wow zoomIn" data-wow-delay="2.2s" aria-label="Platzi Profile">
+                                <i class="fa fa-graduation-cap"></i>
+                            </a>
+                            <a href="https://open.spotify.com/intl-es/track/2wzN7RXUvLT3brNWMCZ2ZC?si=fdc9a00c114748a0" target="_blank" class="wow zoomIn" data-wow-delay="2.4s" aria-label="Spotify Profile (Link to be updated)"> <i class="fa fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="row contact-buttons">
+                            <div class="col-md-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+                                <a href="mailto:demianrgz23@gmail.com?subject=Oportunidad Profesional - Ragknos Demian&body=Hola Ragknos Demian, me gustaría contactarte para..." class="btn btn-default smoothScroll" data-es="<i class='fa fa-envelope'></i> Enviar Correo" data-en="<i class='fa fa-envelope'></i> Send Email"></a>
+                            </div>
+                            <div class="col-md-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+                                <a href="tel:+523315333030" class="btn btn-default smoothScroll" data-es="<i class='fa fa-phone'></i> Llamar / WhatsApp" data-en="<i class='fa fa-phone'></i> Call / WhatsApp"></a>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        <div class="section" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow bounceIn">
+                        <h2 data-es="PROYECTOS DESTACADOS" data-en="FEATURED PROJECTS"></h2>
+                        <p class="wow fadeIn" data-wow-delay="0.3s" data-es="Emprendimientos y colaboraciones clave que demuestran mi experiencia y versatilidad en el desarrollo de software y datos." data-en="Key entrepreneurial ventures and collaborations that showcase my experience and versatility in software and data development."></p>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                            <img src="images/project-youtube.jpg" class="img-responsive" alt="Imagen del proyecto NEXCODE, una plataforma de cursos online.">
+                            <div class="portfolio-overlay">
+                                <h4 data-es="NEXCODE" data-en="NEXCODE"></h4>
+                                <h5 data-es="Fundador | Plataforma de Cursos Online" data-en="Founder | Online Course Platform"></h5>
+                                <p data-es="" data-en=""></p>
+                                <a href="https://nexcodemx.github.io/NEXCODE/" target="_blank" class="project-link" data-es="Ver Proyecto <i class='fa fa-external-link'></i>" data-en="View Project <i class='fa fa-external-link'></i>"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                        <div class="portfolio-thumb">
+                            <img src="images/project-cuceimart.jpg" class="img-responsive" alt="Imagen del proyecto CUCEI MART, una plataforma de e-commerce universitario.">
+                            <div class="portfolio-overlay">
+                                <h4 data-es="CUCEI MART" data-en="CUCEI MART"></h4>
+                                <h5 data-es="Fundador | Plataforma de E-commerce Universitario" data-en="Founder | University E-commerce Platform"></h5>
+                                <p data-es="" data-en=""></p>
+                                <a href="https://nexcodemx.github.io/CUCEIMART/CUCEIMART.html" target="_blank" class="project-link" data-es="Explorar proyecto <i class='fa fa-external-link'></i>" data-en="Explore project <i class='fa fa-external-link'></i>"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.6s">
+                        <div class="portfolio-thumb">
+                            <img src="images/project-spotify.jpg" class="img-responsive" alt="Imagen representativa de la música de Ragknos Demian en Spotify.">
+                           <div class="portfolio-overlay">
+                                <h4 data-es="Ragknos Demian" data-en="Ragknos Demian"></h4>
+                                <h5 data-es="Música Original | Distribución en Spotify" data-en="Original Music | Spotify Distribution"></h5>
+                                <p data-es="" data-en=""></p>
+                                <a href="https://open.spotify.com/intl-es/track/2wzN7RXUvLT3brNWMCZ2ZC?si=fdc9a00c114748a0" target="_blank" class="project-link" data-es="Escuchar en Spotify <i class='fa fa-spotify'></i>" data-en="Listen on Spotify <i class='fa fa-spotify'></i>"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="section" id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow bounceIn">
+                        <h2 data-es="Experiencia Laboral y Proyectos" data-en="Work Experience & Projects"></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="experience-item wow fadeInUp" data-wow-delay="0.3s">
+                            <h3 data-es="Data Engineer | Derevo" data-en="Data Engineer | Derevo"></h3>
+                            <h4 data-es="Jul 2024 – Jul 2025" data-en="Jul 2024 – Jul 2025"></h4>
+                            <ul>
+                                <li data-es="Funciones clave: Diseño, implementación y optimización de pipelines ETL/ELT en entornos cloud (Microsoft Azure: Data Factory, Synapse, Data Lake, Databricks)." data-en="Key functions: Design, implementation, and optimization of ETL/ELT pipelines in cloud environments (Microsoft Azure: Data Factory, Synapse, Data Lake, Databricks)."></li>
+                                <li data-es="Tecnologías usadas: SQL, Azure Data Factory, Azure Synapse, Azure Data Lake Storage, Databricks, Apache Kafka." data-en="Technologies used: SQL, Azure Data Factory, Azure Synapse, Azure Data Lake Storage, Databricks, Apache Kafka."></li>
+                                <li data-es="Logros medibles: Mejoré la eficiencia de procesamiento de datos en un 30% y reduje los errores en un 20% mediante la optimización de pipelines ETL en Azure Data Factory." data-en="Measurable achievements: Improved data processing efficiency by 30% and reduced errors by 20% through ETL pipeline optimization in Azure Data Factory."></li>
+                            </ul>
+                        </div>
+                        <div class="experience-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h3 data-es="Documentador | Derevo" data-en="Documenter | Derevo"></h3>
+                            <h4 data-es="6 meses (2 proyectos RTM)" data-en="6 months (2 RTM projects)"></h4>
+                            <ul>
+                                <li data-es="Responsabilidades: Creación y mantenimiento de documentación técnica (manuales de usuario, arquitectura de sistemas, procesos operativos) para proyectos RTM (Real-Time Messaging), colaboración en daily meetings de SCRUM." data-en="Responsibilities: Creation and maintenance of technical documentation (user manuals, system architecture, operational processes) for RTM (Real-Time Messaging) projects, collaboration in SCRUM daily meetings."></li>
+                                <li data-es="Contribuciones: Lideré la reinvención de múltiples documentos técnicos en español e inglés, mejorando significativamente su atractivo visual e intuición. Esto facilitó la comprensión de arquitecturas complejas y procesos operativos, reduciendo el tiempo de onboarding para nuevos miembros del equipo en aproximadamente un 15%." data-en="Contributions: Led the reinvention of multiple technical documents in both Spanish and English, significantly enhancing their visual appeal and intuition. This facilitated the understanding of complex architectures and operational processes, reducing onboarding time for new team members by approximately 15%."></li>
+                                <li data-es="Herramientas usadas: Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Draw.io, IA, Canva, Correctores Ortograficos, Handbooks y Sharepoints, Portal de Azure y DevOps etc." data-en="Tools used: Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Draw.io, AI, Canva, Spell Checkers, Handbooks and Sharepoints, Azure Portal and DevOps etc."></li>
+                            </ul>
+                        </div>
+                         <div class="experience-item wow fadeInUp" data-wow-delay="0.9s">
+                            <h3 data-es="Arquitectura de Datos en Azure – Proyecto Empresarial (Diagrama Anonimizado)" data-en="Azure Data Architecture – Enterprise Project (Anonymized Diagram)"></h3>
+                            <p data-es="" data-en=""></p>
+                            <img src="images/ArquitecturaTemplate-Architecture PR-Architecture PR-Architecture PR.drawio.png" alt="Diagrama anonimizado de arquitectura de datos en Azure.">
+                            <p class="small-text" data-es="Este diagrama muestra una versión genérica y anonimizada de la arquitectura utilizada, conservando el flujo funcional y tecnológico para demostrar la experiencia aplicada." data-en="This diagram shows a generic and anonymized version of the architecture used, preserving the functional and technological flow to demonstrate applied experience."></p>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>        
+        <div class="section" id="certifications">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow bounceIn">
+                        <h2 data-es="CERTIFICACIONES PROFESIONALES INGENIERIA" data-en="PROFESSIONAL ENGINEERING CERTIFICATIONS">CERTIFICACIONES PROFESIONALES INGENIERIA</h2>
+                        <p class="wow fadeIn" data-wow-delay="0.3s" data-es="Mis certificaciones en programación, datos, inteligencia artificial y ciberseguridad, que avalan mi formación continua. " data-en="My certifications in programming, data, artificial intelligence, and cybersecurity, which endorse my continuous training. ">Mis certificaciones en programación, datos, inteligencia artificial y ciberseguridad, que avalan mi formación continua. </p>
+						<p class="wow fadeIn" data-wow-delay="0.3s" data-es="Haz clic para ver el diploma completo." data-en="Click to view the full diploma.">Haz clic para ver el diploma completo.</p>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-analisis-datos-python.pdf" target="_blank">
+                                <img src="Certificados/diploma-analisis-datos-python_page-0001.jpg" class="img-responsive" alt="Certificado Análisis de Datos con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Análisis de Datos con Python" data-en="Data Analysis with Python">Análisis de Datos con Python</h4>
+                                    <h5>Platzi</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-azure-az900.pdf" target="_blank">
+                                <img src="Certificados/diploma-analyst_page-0001.jpg" class="img-responsive" alt="Certificado Azure AZ-900">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Data Analyst" data-en="Data Analyst">Data Analyst</h4>
+                                    <h5>Platzi</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-azure.pdf" target="_blank">
+                                <img src="Certificados/diploma-azure-az900_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos de Azure">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Azure AZ - 900" data-en="Azure AZ - 900">Azure AZ - 900</h4>
+                                    <h5>Platzi</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-base-de-datos.pdf" target="_blank">
+                                <img src="Certificados/diploma-azure_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos de Bases de Datos">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Microsoft Azure" data-en="Microsoft Azure">Microsoft Azure</h4>
+                                    <h5>Platzi / Microsoft</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-base-de-datos.pdf" target="_blank">
+                                <img src="Certificados/diploma-base-de-datos_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos de Bases de Datos">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Fundamentos de Bases de Datos" data-en="Database Fundamentals">Fundamentos de Bases de Datos</h4>
+                                    <h5>Platzi</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-bases-datos-ingenieria.pdf" target="_blank">
+                                <img src="Certificados/diploma-bases-datos-ingenieria_page-0001.jpg" class="img-responsive" alt="Certificado Bases de Datos para Ingeniería">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Bases de Datos para Data Engineers" data-en="Databases for Data Engineers">Bases de Datos para Data Engineers</h4>
+                                    <h5>Platzi</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hiddenEngineeringCertifications" class="hidden-certs">
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-ciberseguridad-personal.pdf" target="_blank">
+                                    <img src="Certificados/diploma-ciberseguridad-personal_page-0001.jpg" class="img-responsive" alt="Certificado Ciberseguridad Personal">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Ciberseguridad Personal" data-en="Personal Cybersecurity">Ciberseguridad Personal</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-cloud-devops.pdf" target="_blank">
+                                    <img src="Certificados/diploma-cloud-devops_page-0001.jpg" class="img-responsive" alt="Certificado Cloud & DevOps">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Cloud & DevOps" data-en="Cloud & DevOps">Cloud & DevOps</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-cloud-digital-leader.pdf" target="_blank">
+                                    <img src="Certificados/diploma-cloud-digital-leader_page-0001.jpg" class="img-responsive" alt="Certificado Cloud Digital Leader">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Cloud Digital Leader" data-en="Cloud Digital Leader">Cloud Digital Leader</h4>
+                                        <h5>Google Cloud Skills Boost</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-data-analyst-python.pdf" target="_blank">
+                                    <img src="Certificados/diploma-data-analyst-python_page-0001.jpg" class="img-responsive" alt="Certificado Data Analyst con Python">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Data Analyst con Python" data-en="Data Analyst with Python">Data Analyst con Python</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-data-analyst.pdf" target="_blank">
+                                    <img src="Certificados/diploma-data-analyst_page-0001.jpg" class="img-responsive" alt="Certificado Data Analyst">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Data Analyst" data-en="Data Analyst">Data Analyst</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-data-engineer.pdf" target="_blank">
+                                    <img src="Certificados/diploma-data-engineer_page-0001.jpg" class="img-responsive" alt="Certificado Data Engineer">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Data Engineer" data-en="Data Engineer">Data Engineer</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-data-warehousing-etl.pdf" target="_blank">
+                                    <img src="Certificados/diploma-data-warehousing-etl_page-0001.jpg" class="img-responsive" alt="Certificado Data Warehousing y ETL">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Data Warehousing y ETL" data-en="Data Warehousing & ETL">Data Warehousing y ETL</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-datos-fundamentos-tecnicos.pdf" target="_blank">
+                                    <img src="Certificados/diploma-datos-fundamentos-tecnicos_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos Técnicos de Datos">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Entorno De Trabajo Para Data E IA" data-en="Work Environment for Data & AI">Entorno De Trabajo Para Data E IA</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-datos-sql.pdf" target="_blank">
+                                    <img src="Certificados/diploma-datos-sql_page-0001.jpg" class="img-responsive" alt="Certificado Análisis de Datos con SQL">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Bases De Datos SQL" data-en="SQL Databases">Bases De Datos SQL</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-datos-visualizacion.pdf" target="_blank">
+                                    <img src="Certificados/diploma-datos-visualizacion_page-0001.jpg" class="img-responsive" alt="Certificado Visualización de Datos">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Visualización de Datos con Python" data-en="Data Visualization with Python">Visualización de Datos con Python</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-desarrollo-web.pdf" target="_blank">
+                                    <img src="Certificados/diploma-desarrollo-web_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Desarrollo Web" data-en="Web Development">Desarrollo Web</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-fundamentos-data.pdf" target="_blank">
+                                    <img src="Certificados/diploma-fundamentos-data_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos de Data">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Fundamentos de Data" data-en="Data Fundamentals">Fundamentos de Data</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-introduccion-data-ia.pdf" target="_blank">
+                                    <img src="Certificados/diploma-introduccion-data-ia_page-0001.jpg" class="img-responsive" alt="Certificado Introducción a Data e IA">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Bases Para Analitica Y Ciencia De Datos" data-en="Foundations for Data Analytics & Science">Bases Para Analitica Y Ciencia De Datos</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-introduccion-ia.pdf" target="_blank">
+                                    <img src="Certificados/diploma-introduccion-ia_page-0001.jpg" class="img-responsive" alt="Certificado Introducción a la IA">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Introducción a la IA" data-en="Introduction to AI">Introducción a la IA</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-lenguajes-data.pdf" target="_blank">
+                                    <img src="Certificados/diploma-lenguajes-data_page-0001.jpg" class="img-responsive" alt="Certificado Lenguajes para Data">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Lenguajes para Data" data-en="Languages for Data">Lenguajes para Data</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-servidores.pdf" target="_blank">
+                                    <img src="Certificados/diploma-servidores_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos de Servidores">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Administración de Servidores Y DevOps" data-en="Server Administration & DevOps">Administración de Servidores Y DevOps</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-urbase-inteligencia-artificial.pdf" target="_blank">
+                                    <img src="Certificados/diploma-urbase-inteligencia-artificial_page-0001.jpg" class="img-responsive" alt="Certificado IA Aplicada (Urbaser)">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="IA Aplicada (Urbaser)" data-en="Applied AI (Urbaser)">IA Aplicada (Urbaser)</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-web-backend.pdf" target="_blank">
+                                    <img src="Certificados/diploma-web-backend_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web Backend">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Desarrollo Web Backend" data-en="Backend Web Development">Desarrollo Web Backend</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-web-frontend.pdf" target="_blank">
+                                    <img src="Certificados/diploma-web-frontend_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web Frontend">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Desarrollo Web Frontend" data-en="Frontend Web Development">Desarrollo Web Frontend</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-web-fundamentos.pdf" target="_blank">
+                                    <img src="Certificados/diploma-web-fundamentos_page-0001.jpg" class="img-responsive" alt="Certificado Fundamentos de Desarrollo Web">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Fundamentos de Desarrollo Web" data-en="Web Development Fundamentals">Fundamentos de Desarrollo Web</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-web-prework.pdf" target="_blank">
+                                    <img src="Certificados/diploma-web-prework_page-0001.jpg" class="img-responsive" alt="Certificado Prework para Desarrollo Web">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Prework para Desarrollo Web" data-en="Web Development Prework">Prework para Desarrollo Web</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/diploma-web-python.pdf" target="_blank">
+                                    <img src="Certificados/diploma-web-python_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Desarrollo Web con Python" data-en="Web Development with Python">Desarrollo Web con Python</h4>
+                                        <h5>Platzi</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-sql-udemy.pdf" target="_blank"> <img src="Certificados/Certificado15DaysofSQLTheCompleteMasterclass2024.jpg" class="img-responsive" alt="Certificado Curso Profesional SQL">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso Profesional SQL" data-en="Professional SQL Course">Curso Profesional SQL</h4>
+                                        <h5>Udemy / Derevo</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-az900-udemy.pdf" target="_blank"> <img src="Certificados/CertificadoAZ900CURSO.jpg" class="img-responsive" alt="Certificado Curso Profesional Azure AZ900">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso Profesional Azure AZ900" data-en="Professional Azure AZ900 Course">Curso Profesional Azure AZ900</h4>
+                                        <h5>Udemy / Derevo</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-datawarehouse-udemy.pdf" target="_blank"> <img src="Certificados/CertificadoDataWarehouse-TheUltimateGuide.jpg" class="img-responsive" alt="Certificado Curso Profesional DataWarehouse">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso Profesional DataWarehouse" data-en="Professional DataWarehouse Course">Curso Profesional DataWarehouse</h4>
+                                        <h5>Udemy / Derevo</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-dp203-udemy.pdf" target="_blank"> <img src="Certificados/CertificadoDP203.jpg" class="img-responsive" alt="Certificado Curso Profesional Azure DP203">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso Profesional Azure DP203" data-en="Professional Azure DP203 Course">Curso Profesional Azure DP203</h4>
+                                        <h5>Udemy / Derevo</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-python-mimo.pdf" target="_blank"> <img src="Certificados/mimo-certificates-125_page-0001.jpg" class="img-responsive" alt="Certificado Curso Python">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso Python" data-en="Python Course">Curso Python</h4>
+                                        <h5>Mimo </h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-sql-mimo.pdf" target="_blank"> <img src="Certificados/mimo-certificates-145_page-0001.jpg" class="img-responsive" alt="Certificado Curso SQL">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso SQL" data-en="SQL Course">Curso SQL</h4>
+                                        <h5>Mimo </h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-html-mimo.pdf" target="_blank"> <img src="Certificados/mimo-certificates-194-2_page-0001.jpg" class="img-responsive" alt="Certificado Curso HTML">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso HTML" data-en="HTML Course">Curso HTML</h4>
+                                        <h5>Mimo </h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                            <div class="portfolio-thumb">
+                                <a href="pdfs/certificado-css-mimo.pdf" target="_blank"> <img src="Certificados/mimo-certificates-225-1_page-0001.jpg" class="img-responsive" alt="Certificado Curso CSS">
+                                    <div class="portfolio-overlay">
+                                        <h4 data-es="Curso CSS" data-en="CSS Course">Curso CSS</h4>
+                                        <h5>Mimo </h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> <div class="col-md-12 text-center">
+                        <button id="toggleEngineeringCertifications" class="toggle-certs-btn" data-es="Ver más" data-en="View more">Ver más</button>
+                    </div>
+					<div class="col-md-12 text-center wow bounceIn" style="margin-top: 50px;">
+                        <h2 data-es="CERTIFICACIONES PROFESIONALES INGLES" data-en="PROFESSIONAL ENGLISH CERTIFICATIONS">CERTIFICACIONES PROFESIONALES INGLES</h2>
+                        <p class="wow fadeIn" data-wow-delay="0.3s" data-es="Mis certificaciones en Ingles que avalan mi formación continua. " data-en="My English certifications that endorse my continuous training. ">Mis certificaciones en Ingles que avalan mi formación continua. </p>
+						<p class="wow fadeIn" data-wow-delay="0.3s" data-es="Haz clic para ver el diploma completo." data-en="Click to view the full diploma.">Haz clic para ver el diploma completo.</p>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-advanced-core.pdf" target="_blank">
+                                <img src="Certificados/diploma-advanced-core_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Ingles C1" data-en="English C1">Ingles C1</h4>
+                                    <h5>Platzi / TOEFL </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-intermediate-core2.pdf" target="_blank">
+                                <img src="Certificados/diploma-intermediate-core2_page-0001 (2).jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Ingles B2" data-en="English B2">Ingles B2</h4>
+                                    <h5>Platzi / TOEFL </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-intermediate-core.pdf" target="_blank">
+                                <img src="Certificados/diploma-intermediate-core_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Ingles B1" data-en="English B1">Ingles B1</h4>
+                                    <h5>Platzi / TOEFL </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-beginner-core2.pdf" target="_blank">
+                                <img src="Certificados/diploma-beginner-core2_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Ingles A2" data-en="English A2">Ingles A2</h4>
+                                    <h5>Platzi / TOEFL </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-beginner-core.pdf" target="_blank">
+                                <img src="Certificados/diploma-beginner-core_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Ingles A1" data-en="English A1">Ingles A1</h4>
+                                    <h5>Platzi / TOEFL </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-ingles-negocios.pdf" target="_blank">
+                                <img src="Certificados/diploma-ingles-negocios_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Ingles Profesional Para Negocios" data-en="Professional English for Business">Ingles Profesional Para Negocios</h4>
+                                    <h5>Platzi / TOEFL </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-12 text-center wow bounceIn" style="margin-top: 50px;">
+                        <h2 data-es="CERTIFICACIONES PROFESIONALES HABILIDADES BLANDAS Y METRICAS" data-en="PROFESSIONAL SOFT SKILLS & METRICS CERTIFICATIONS">CERTIFICACIONES PROFESIONALES HABILIDADES BLANDAS Y METRICAS</h2>
+                        <p class="wow fadeIn" data-wow-delay="0.3s" data-es="Mis certificaciones en Habilidades Blandas y Metricas que avalan mi formación continua. " data-en="My Soft Skills and Metricas certifications that endorse my continuous training. ">Mis certificaciones en Habilidades Blandas y Metricas que avalan mi formación continua. </p>
+						<p class="wow fadeIn" data-wow-delay="0.3s" data-es="Haz clic para ver el diploma completo." data-en="Click to view the full diploma.">Haz clic para ver el diploma completo.</p>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-diversidad.pdf" target="_blank"> <img src="Certificados/diploma-diversidad_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Diversidad e Inclusión" data-en="Diversity & Inclusion">Diversidad e Inclusión </h4>
+                                    <h5>Platzi </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-genero.pdf" target="_blank"> <img src="Certificados/diploma-genero_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Diversidad de Género" data-en="Gender Diversity">Diversidad de Género </h4>
+                                    <h5>Platzi </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-habilidades-blandas-legacy.pdf" target="_blank"> <img src="Certificados/diploma-habilidades-blandas-legacy_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Habilidades Blandas" data-en="Soft Skills">Habilidades Blandas</h4>
+                                    <h5>Platzi </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-metricas-para-negocios.pdf" target="_blank"> <img src="Certificados/diploma-metricas-para-negocios_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Métricas para Negocios" data-en="Business Metrics">Métricas para Negocios</h4>
+                                    <h5>Platzi </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+					<div class="col-md-4 col-xs-12 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="portfolio-thumb">
+                            <a href="pdfs/diploma-rol-de-scrum-master.pdf" target="_blank"> <img src="Certificados/diploma-rol-de-scrum-master_page-0001.jpg" class="img-responsive" alt="Certificado Desarrollo Web con Python">
+                                <div class="portfolio-overlay">
+                                    <h4 data-es="Scrum Master" data-en="Scrum Master">Scrum Master</h4>
+                                    <h5>Platzi </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.simple-text-rotator.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new WOW().init();
+            const langToggleBtn = document.getElementById('langToggleBtn');
+            const htmlTag = document.documentElement;
+            const typingContainer = document.getElementById("typingText");
+            const hiddenEngineeringCertsDiv = document.getElementById('hiddenEngineeringCertifications');
+            const toggleEngineeringButton = document.getElementById('toggleEngineeringCertifications');
+            const translations = {
+                es: {
+                    title: "Ragknos Demian Fernández Agraz Rodríguez - CV",
+                    metaDescription: "Perfil profesional de Ragknos Demian Fernández Agraz Rodríguez: Data Engineer con experiencia en desarrollo Full-Stack, emprendimiento tecnológico y creación de contenido educativo.",
+                    homeExploreProfile: "Explorar Perfil",
+                    professionalProfile: "Perfil Profesional",
+                    rotatePhrases: ["Data Engineer", "Desarrollador Full-Stack", "Emprendedor Tech", "Creador de Contenido", "Data Analyst", "Músico Independiente"],
+                    summaryPart1: "Ingeniero de Datos con un año de experiencia en Derevo, especializado en el diseño, implementación y optimización de pipelines ETL/ELT en entornos cloud. Domino tecnologías clave como Microsoft Azure (Data Factory, Synapse, Data Lake), Databricks y Apache Kafka, así como la administración avanzada de bases de datos relacionales y NoSQL.",
+                    summaryPart2: "Fundador de NEXCODE, plataforma educativa tecnológica, y CUCEI MART, e-commerce universitario, donde lideré el desarrollo Full-Stack (Python, JavaScript, Next.js, Node.js) y la arquitectura de soluciones escalables. Mis proyectos integran backend, frontend, visualización de datos y gestión ágil de equipos.",
+                    summaryPart3: "También soy artista independiente con música publicada en Spotify, lo que complementa mi perfil con creatividad, visión estética y habilidades de autogestión multidisciplinarias.",
+                    methodologiesManagement: "Metodologías & Gestión",
+                    agileMethodologies: "Metodologías Ágiles (Scrum/Kanban)",
+                    projectManagement: "Gestión de Proyectos",
+                    teamLeadership: "Liderazgo de Equipos",
+                    designThinking: "Pensamiento de Diseño (Design Thinking)",
+                    leanStartup: "Lean Startup",
+                    iterativeDevelopment: "Desarrollo Iterativo",
+                    processAutomation: "Automatización de Procesos",
+                    databases: "Bases de Datos",
+                    cloudBigData: "Cloud & Big Data",
+                    myTechStack: "Mi Stack Tecnológico y Competencias Clave",
+                    dataFullstackInnovation: "Ingeniería de Datos | Desarrollo Full-Stack | Innovación",
+                    skillsDescription: "Actualmente curso el tercer semestre de Ingeniería en Computación en la UDG (CUCEI) con un promedio de 9.7, combinando mi formación académica con una capacitación continua en tecnologías de alto impacto. Me especializo en construir soluciones robustas y escalables, integrando datos, desarrollo de software y metodologías ágiles para maximizar eficiencia y valor en proyectos tecnológicos. <br><br>Cuento con nivel de inglés C1, dominio de métricas y habilidades blandas y más de 200 certificaciones técnicas en plataformas como Platzi, Udemy y Google Cloud, lo que respalda mi perfil como profesional autodidacta, adaptable y orientado a la mejora constante.",
+                    languagesTools: "🛠️ Lenguajes y Herramientas:",
+                    programmingFrameworks: "Lenguajes de Programación y Frameworks:",
+                    softwareTools: "Software y Herramientas 🛠:",
+                    newTechnologiesLearning: "(Nuevas Tecnologías y en Aprendizaje):",
+                    productivityDataViz: "Productividad y Data Visualization:",
+                    backendFrontendDev: "Desarrollo Backend & Frontend",
+                    english: "Inglés",
+                    softSkillsMethodologies: "Habilidades Blandas y Metodologías",
+                    dataEngineeringEtl: "Ingeniería de Datos & ETL",
+                    entrepreneurshipProjectManagement: "Emprendimiento y Gestión de Proyectos",
+                    dataAnalysisVisualization: "Análisis y Visualización de Datos",
+                    githubStatsPersonal: "Estadísticas de mi perfil personal en GitHub:",
+                    githubStatsNEXCODE: "Estadísticas de NEXCODE en GitHub:",
+                    connectWithMe: "<i class='fa fa-handshake-o'></i> Conecta Conmigo",
+                    sendEmail: "<i class='fa fa-envelope'></i> Enviar Correo",
+                    callWhatsApp: "<i class='fa fa-phone'></i> Llamar / WhatsApp",
+                    featuredProjects: "PROYECTOS DESTACADOS",
+                    projectsDescription: "Emprendimientos y colaboraciones clave que demuestran mi experiencia y versatilidad en el desarrollo de software y datos.",
+                    viewProject: "Ver Proyecto <i class='fa fa-external-link'></i>",
+                    exploreProject: "Explorar proyecto <i class='fa fa-external-link'></i>",
+                    listenOnSpotify: "Escuchar en Spotify <i class='fa fa-spotify'></i>",
+                    projectNEXCODEFounderTitle: "Fundador | Plataforma de Cursos Online",
+                    projectNEXCODEDesc: "Plataforma con más de 10 estudiantes de cursos de Programación, Tecnología, Inglés, Habilidades Blandas, Métricas, Bases de Datos, etc.",
+                    projectCUCEIMARTFounderTitle: "Fundador | Plataforma de E-commerce Universitario",
+                    projectCUCEIMARTDesc: "Diseño y desarrollo integral de una tienda en línea dirigida a la comunidad de CUCEI, optimizando la experiencia de compra y la gestión de productos universitarios.",
+                    projectRagknosDemianTitle: "Música Original | Distribución en Spotify",
+                    projectRagknosDemianDesc: "Proyecto musical independiente con composiciones originales que fusionan emociones profundas con una identidad sonora única. Disponible en plataformas digitales.",
+                    workExperienceProjects: "Experiencia Laboral y Proyectos",
+                    dataEngineerDerevoTitle: "Data Engineer | Derevo",
+                    dataEngineerDerevoDate: "Jul 2024 – Jul 2025",
+                    dataEngineerDerevoFunction: "Funciones clave: Diseño, implementación y optimización de pipelines ETL/ELT en entornos cloud (Microsoft Azure: Data Factory, Synapse, Data Lake, Databricks)." ,
+                    dataEngineerDerevoTech: "Tecnologías usadas: SQL, Azure Data Factory, Azure Synapse, Azure Data Lake Storage, Databricks, Apache Kafka.",
+                    dataEngineerDerevoAchievements: "Logros medibles: Mejoré la eficiencia de procesamiento de datos en un 30% y reduje los errores en un 20% mediante la optimización de pipelines ETL en Azure Data Factory.",
+                    documenterDerevoTitle: "Documentador | Derevo",
+                    documenterDerevoDate: "6 meses (2 proyectos RTM)",
+                    documenterDerevoResp: "Responsabilidades: Creación y mantenimiento de documentación técnica (manuales de usuario, arquitectura de sistemas, procesos operativos) para proyectos RTM (Real-Time Messaging), colaboración en daily meetings de SCRUM.",
+                    documenterDerevoContrib: "Contribuciones: Lideré la reinvención de múltiples documentos técnicos en español e inglés, mejorando significativamente su atractivo visual e intuición. Esto facilitó la comprensión de arquitecturas complejas y procesos operativos, reduciendo el tiempo de onboarding para nuevos miembros del equipo en aproximadamente un 15%.",
+                    documenterDerevoTools: "Herramientas usadas: Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Draw.io, IA, Canva, Correctores Ortograficos, Handbooks y Sharepoints, Portal de Azure y DevOps etc.",
+                    azureArchitectureTitle: "Arquitectura de Datos en Azure – Proyecto Empresarial (Diagrama Anonimizado)",
+                    azureArchitectureDesc: "Diseñé y lideré la implementación de una arquitectura moderna de procesamiento de datos en la nube, utilizando servicios como Azure Data Factory, Databricks, Synapse Analytics, y Key Vault. El diseño incluía integración segura con fuentes locales, gestión de secretos, pipelines de transformación, y automatización mediante Azure DevOps y Logic Apps.",
+                    azureArchitectureSmallText: "Este diagrama muestra una versión genérica y anonimizada de la arquitectura utilizada, conservando el flujo funcional y tecnológico para demostrar la experiencia aplicada.",
+                    certificationsEngineeringTitle: "CERTIFICACIONES PROFESIONALES INGENIERIA",
+                    certificationsEngineeringDesc1: "Mis certificaciones en programación, datos, inteligencia artificial y ciberseguridad, que avalan mi formación continua. ",
+                    certificationsEngineeringDesc2: "Haz clic para ver el diploma completo.",
+                    certPythonAnalysis: "Análisis de Datos con Python",
+                    certDataAnalyst: "Data Analyst",
+                    certAzureAz900: "Azure AZ - 900",
+                    certMicrosoftAzure: "Microsoft Azure",
+                    certDatabaseFundamentals: "Fundamentos de Bases de Datos",
+                    certDataEngineersDB: "Bases de Datos para Data Engineers",
+                    certPersonalCybersecurity: "Ciberseguridad Personal",
+                    certCloudDevOps: "Cloud & DevOps",
+                    certCloudDigitalLeader: "Cloud Digital Leader",
+                    certDataAnalystPython: "Data Analyst con Python",
+                    certDataEngineer: "Data Engineer",
+                    certDataWarehousingEtl: "Data Warehousing y ETL",
+                    certDataAIA: "Entorno De Trabajo Para Data E IA",
+                    certSQLDatabases: "Bases De Datos SQL",
+                    certDataVisualizationPython: "Visualización de Datos con Python",
+                    certWebDevelopment: "Desarrollo Web",
+                    certDataFundamentals: "Fundamentos de Data",
+                    certDataAnalyticsScienceFoundations: "Bases Para Analitica Y Ciencia De Datos",
+                    certIntroductionAI: "Introducción a la IA",
+                    certLanguagesForData: "Lenguajes para Data",
+                    certServerAdminDevOps: "Administración de Servidores Y DevOps",
+                    certAppliedAIAUrbaser: "IA Aplicada (Urbaser)",
+                    certBackendWebDev: "Desarrollo Web Backend",
+                    certFrontendWebDev: "Frontend Web Development",
+                    certWebDevFundamentals: "Fundamentos de Desarrollo Web",
+                    certWebDevPrework: "Prework para Desarrollo Web",
+                    certWebDevPython: "Desarrollo Web con Python",
+                    certProfessionalSQL: "Curso Profesional SQL",
+                    certProfessionalAzureAZ900: "Curso Profesional Azure AZ900",
+                    certProfessionalDataWarehouse: "Curso Profesional DataWarehouse",
+                    certProfessionalAzureDP203: "Curso Profesional Azure DP203",
+                    certPythonCourse: "Curso Python",
+                    certSQLCourse: "Curso SQL",
+                    certHTMLCourse: "Curso HTML",
+                    certCSSCourse: "CSS Course",
+                    viewMore: "Ver más",
+                    viewLess: "Ver menos",
+                    certificationsEnglishTitle: "PROFESSIONAL ENGLISH CERTIFICATIONS",
+                    certificationsEnglishDesc1: "Mis certificaciones en Ingles que avalan mi formación continua. ",
+                    certificationsEnglishDesc2: "Haz clic para ver el diploma completo.",
+                    certEnglishC1: "Ingles C1",
+                    certEnglishB2: "Ingles B2",
+                    certEnglishB1: "Ingles B1",
+                    certEnglishA2: "Ingles A2",
+                    certEnglishA1: "Ingles A1",
+                    certProfessionalEnglishBusiness: "Ingles Profesional Para Negocios",
+                    certificationsSoftSkillsMetricsTitle: "PROFESSIONAL SOFT SKILLS & METRICS CERTIFICATIONS",
+                    certificationsSoftSkillsMetricsDesc1: "Mis certificaciones en Habilidades Blandas y Metricas que avalan mi formación continua. ",
+                    certificationsSoftSkillsMetricsDesc2: "Haz clic para ver el diploma completo.",
+                    certDiversityInclusion: "Diversidad e Inclusión",
+                    certGenderDiversity: "Diversidad de Género",
+                    certSoftSkills: "Habilidades Blandas",
+                    certBusinessMetrics: "Métricas para Negocios",
+                    certScrumMaster: "Scrum Master",
+                },
+                en: {
+                    title: "Ragknos Demian Fernández Agraz Rodríguez - CV",
+                    metaDescription: "Professional profile of Ragknos Demian Fernández Agraz Rodríguez: Data Engineer with Full-Stack development experience, tech entrepreneurship, and educational content creation.",
+                    homeExploreProfile: "Explore Profile",
+                    professionalProfile: "Professional Profile",
+                    rotatePhrases: ["Data Engineer", "Full-Stack Developer", "Tech Entrepreneur", "Content Creator", "Data Analyst", "Independent Musician"],
+                    summaryPart1: "Data Engineer with one year of experience at Derevo, specializing in the design, implementation, and optimization of ETL/ELT pipelines in cloud environments. I master key technologies such as Microsoft Azure (Data Factory, Synapse, Data Lake), Databricks, and Apache Kafka, as well as advanced administration of relational and NoSQL databases.",
+                    summaryPart2: "Founder of NEXCODE, a technological educational platform, and CUCEI MART, a university e-commerce, where I led Full-Stack development (Python, JavaScript, Next.js, Node.js) and the architecture of scalable solutions. My projects integrate backend, frontend, data visualization, and agile team management.",
+                    summaryPart3: "I am also an independent artist with music published on Spotify, which complements my profile with creativity, aesthetic vision, and multidisciplinary self-management skills.",
+                    methodologiesManagement: "Methodologies & Management",
+                    agileMethodologies: "Agile Methodologies (Scrum/Kanban)",
+                    projectManagement: "Project Management",
+                    teamLeadership: "Team Leadership",
+                    designThinking: "Design Thinking",
+                    leanStartup: "Lean Startup",
+                    iterativeDevelopment: "Iterative Development",
+                    processAutomation: "Process Automation",
+                    databases: "Databases",
+                    cloudBigData: "Cloud & Big Data",
+                    myTechStack: "My Tech Stack & Key Competencies",
+                    dataFullstackInnovation: "Data Engineering | Full-Stack Development | Innovation",
+                    skillsDescription: "I am currently in my third semester of Computer Engineering at UDG (CUCEI) with a 9.7 GPA, combining my academic background with continuous training in high-impact technologies. I specialize in building robust and scalable solutions, integrating data, software development, and agile methodologies to maximize efficiency and value in technology projects. <br><br>I have a C1 English level, proficiency in metrics and soft skills, and over 200 technical certifications from platforms like Platzi, Udemy, and Google Cloud, which support my profile as a self-taught, adaptable, and constantly improving professional.",
+                    languagesTools: "🛠️ Languages & Tools:",
+                    programmingFrameworks: "Programming Languages & Frameworks:",
+                    softwareTools: "Software & Tools 🛠:",
+                    newTechnologiesLearning: "(New Technologies & Learning):",
+                    productivityDataViz: "Productivity & Data Visualization:",
+                    backendFrontendDev: "Backend & Frontend Development",
+                    english: "English",
+                    softSkillsMethodologies: "Soft Skills & Methodologies",
+                    dataEngineeringEtl: "Data Engineering & ETL",
+                    entrepreneurshipProjectManagement: "Entrepreneurship & Project Management",
+                    dataAnalysisVisualization: "Data Analysis & Visualization",
+                    githubStatsPersonal: "My personal GitHub profile statistics:",
+                    githubStatsNEXCODE: "NEXCODE GitHub statistics:",
+                    connectWithMe: "<i class='fa fa-handshake-o'></i> Connect With Me",
+                    sendEmail: "<i class='fa fa-envelope'></i> Send Email",
+                    callWhatsApp: "<i class='fa fa-phone'></i> Call / WhatsApp",
+                    featuredProjects: "FEATURED PROJECTS",
+                    projectsDescription: "Key entrepreneurial ventures and collaborations that showcase my experience and versatility in software and data development.",
+                    viewProject: "View Project <i class='fa fa-external-link'></i>",
+                    exploreProject: "Explore project <i class='fa fa-external-link'></i>",
+                    listenOnSpotify: "Listen on Spotify <i class='fa fa-spotify'></i>",
+                    projectNEXCODEFounderTitle: "Founder | Online Course Platform",
+                    projectNEXCODEDesc: "Platform with over 10 students for Programming, Technology, English, Soft Skills, Metrics, Databases, etc. courses.",
+                    projectCUCEIMARTFounderTitle: "Founder | University E-commerce Platform",
+                    projectCUCEIMARTDesc: "Comprehensive design and development of an online store for the CUCEI community, optimizing the shopping experience and university product management.",
+                    projectRagknosDemianTitle: "Original Music | Spotify Distribution",
+                    projectRagknosDemianDesc: "Independent music project with original compositions that fuse deep emotions with a unique sound identity. Available on digital platforms.",
+                    workExperienceProjects: "Work Experience & Projects",
+                    dataEngineerDerevoTitle: "Data Engineer | Derevo",
+                    dataEngineerDerevoDate: "Jul 2024 – Jul 2025",
+                    dataEngineerDerevoFunction: "Key functions: Design, implementation, and optimization of ETL/ELT pipelines in cloud environments (Microsoft Azure: Data Factory, Synapse, Data Lake, Databricks).",
+                    dataEngineerDerevoTech: "Technologies used: SQL, Azure Data Factory, Azure Synapse, Azure Data Lake Storage, Databricks, Apache Kafka.",
+                    dataEngineerDerevoAchievements: "Measurable achievements: Improved data processing efficiency by 30% and reduced errors by 20% through ETL pipeline optimization in Azure Data Factory.",
+                    documenterDerevoTitle: "Documenter | Derevo",
+                    documenterDerevoDate: "6 months (2 RTM projects)",
+                    documenterDerevoResp: "Responsibilities: Creation and maintenance of technical documentation (user manuals, system architecture, operational processes) for RTM (Real-Time Messaging) projects, collaboration in SCRUM daily meetings.",
+                    documenterDerevoContrib: "Contributions: Led the reinvention of multiple technical documents in both Spanish and English, significantly enhancing their visual appeal and intuition. This facilitated the understanding of complex architectures and operational processes, reducing onboarding time for new team members by approximately 15%.",
+                    documenterDerevoTools: "Tools used: Microsoft Excel, Microsoft Word, Microsoft PowerPoint, Draw.io, AI, Canva, Spell Checkers, Handbooks and Sharepoints, Azure Portal and DevOps etc.",
+                    azureArchitectureTitle: "Azure Data Architecture – Enterprise Project (Anonymized Diagram)",
+                    azureArchitectureDesc: "I designed and led the implementation of a modern cloud data processing architecture, utilizing services such as Azure Data Factory, Databricks, Synapse Analytics, and Key Vault. The design included secure integration with on-premises sources, secret management, transformation pipelines, and automation using Azure DevOps and Logic Apps.",
+                    azureArchitectureSmallText: "This diagram shows a generic and anonymized version of the architecture used, preserving the functional and technological flow to demonstrate applied experience.",
+                    certificationsEngineeringTitle: "PROFESSIONAL ENGINEERING CERTIFICATIONS",
+                    certificationsEngineeringDesc1: "My certifications in programming, data, artificial intelligence, and cybersecurity, which endorse my continuous training. ",
+                    certificationsEngineeringDesc2: "Click to view the full diploma.",
+                    certPythonAnalysis: "Data Analysis with Python",
+                    certDataAnalyst: "Data Analyst",
+                    certAzureAz900: "Azure AZ - 900",
+                    certMicrosoftAzure: "Microsoft Azure",
+                    certDatabaseFundamentals: "Database Fundamentals",
+                    certDataEngineersDB: "Databases for Data Engineers",
+                    certPersonalCybersecurity: "Personal Cybersecurity",
+                    certCloudDevOps: "Cloud & DevOps",
+                    certCloudDigitalLeader: "Cloud Digital Leader",
+                    certDataAnalystPython: "Data Analyst with Python",
+                    certDataEngineer: "Data Engineer",
+                    certDataWarehousingEtl: "Data Warehousing & ETL",
+                    certDataAIA: "Work Environment for Data & AI",
+                    certSQLDatabases: "SQL Databases",
+                    certDataVisualizationPython: "Data Visualization with Python",
+                    certWebDevelopment: "Web Development",
+                    certDataFundamentals: "Data Fundamentals",
+                    certDataAnalyticsScienceFoundations: "Foundations for Data Analytics & Science",
+                    certIntroductionAI: "Introduction to AI",
+                    certLanguagesForData: "Languages for Data",
+                    certServerAdminDevOps: "Server Administration & DevOps",
+                    certAppliedAIAUrbaser: "Applied AI (Urbaser)",
+                    certBackendWebDev: "Backend Web Development",
+                    certFrontendWebDev: "Frontend Web Development",
+                    certWebDevFundamentals: "Web Development Fundamentals",
+                    certWebDevPrework: "Web Development Prework",
+                    certWebDevPython: "Web Development with Python",
+                    certProfessionalSQL: "Professional SQL Course",
+                    certProfessionalAzureAZ900: "Professional Azure AZ900 Course",
+                    certProfessionalDataWarehouse: "Professional DataWarehouse Course",
+                    certProfessionalAzureDP203: "Professional Azure DP203 Course",
+                    certPythonCourse: "Python Course",
+                    certSQLCourse: "SQL Course",
+                    certHTMLCourse: "HTML Course",
+                    certCSSCourse: "CSS Course",
+                    viewMore: "View more",
+                    viewLess: "View less",
+                    certificationsEnglishTitle: "PROFESSIONAL ENGLISH CERTIFICATIONS",
+                    certificationsEnglishDesc1: "My English certifications that endorse my continuous training. ",
+                    certificationsEnglishDesc2: "Click to view the full diploma.",
+                    certEnglishC1: "English C1",
+                    certEnglishB2: "English B2",
+                    certEnglishB1: "English B1",
+                    certEnglishA2: "English A2",
+                    certEnglishA1: "English A1",
+                    certProfessionalEnglishBusiness: "Professional English for Business",
+                    certificationsSoftSkillsMetricsTitle: "PROFESSIONAL SOFT SKILLS & METRICS CERTIFICATIONS",
+                    certificationsSoftSkillsMetricsDesc1: "My Soft Skills and Metricas certifications that endorse my continuous training. ",
+                    certificationsSoftSkillsMetricsDesc2: "Click to view the full diploma.",
+                    certDiversityInclusion: "Diversity & Inclusion",
+                    certGenderDiversity: "Gender Diversity",
+                    certSoftSkills: "Soft Skills",
+                    certBusinessMetrics: "Business Metrics",
+                    certScrumMaster: "Scrum Master",
+                }
+            };
+            let currentPhraseIndex = 0;
+            let currentCharIndex = 0;
+            const typingSpeed = 100;
+            const pauseBetweenPhrases = 2000;
+            let typingInterval; 
+            function typePhrase() {
+                const phrasesToUse = JSON.parse(typingContainer.getAttribute(`data-${htmlTag.lang}-phrases`));
+                const currentPhrase = phrasesToUse[currentPhraseIndex];
+                if (currentCharIndex < currentPhrase.length) {
+                    if (typingContainer.style.visibility !== 'hidden') {
+                        typingContainer.textContent += currentPhrase.charAt(currentCharIndex);
+                    }
+                    currentCharIndex++;
+                    typingInterval = setTimeout(typePhrase, typingSpeed);
+                } else {
+                    typingContainer.style.animation = "blink 0.75s step-end infinite";
+                    setTimeout(() => {
+                        typingContainer.style.visibility = 'hidden';
+                        typingContainer.style.animation = "none";
+                        currentPhraseIndex = (currentPhraseIndex + 1) % phrasesToUse.length;
+                        currentCharIndex = 0;
+                        typingContainer.textContent = ""; 
+                        setTimeout(() => {
+                            typingContainer.style.visibility = 'visible'; 
+                            typePhrase();
+                        }, 500); 
+                    }, pauseBetweenPhrases);
+                }
+            }
+            function updateContent(lang) {
+                htmlTag.setAttribute('lang', lang);
+                document.title = translations[lang].title;
+                document.querySelector('meta[name="description"]').setAttribute('content', translations[lang].metaDescription);
+                const elementsToTranslate = document.querySelectorAll('[data-es], [data-en]');
+                elementsToTranslate.forEach(element => {
+                    if (element.id === 'typingText') {
+                        return; 
+                    }
+                    if (element.hasAttribute(`data-${lang}`)) {
+                        element.innerHTML = element.getAttribute(`data-${lang}`);
+                    }
+                });
+                if (hiddenEngineeringCertsDiv.classList.contains('hidden-certs')) {
+                    toggleEngineeringButton.textContent = translations[lang].viewMore;
+                } else {
+                    toggleEngineeringButton.textContent = translations[lang].viewLess;
+                }
+                langToggleBtn.textContent = (lang === 'es' ? 'English' : 'Español');
+                clearTimeout(typingInterval); 
+                currentPhraseIndex = 0;
+                currentCharIndex = 0;
+                typingContainer.textContent = ""; 
+                typingContainer.style.visibility = 'visible'; 
+                typePhrase();
+            }
+            typePhrase();
+            toggleEngineeringButton.addEventListener('click', function() {
+                if (hiddenEngineeringCertsDiv.classList.contains('hidden-certs')) {
+                    hiddenEngineeringCertsDiv.classList.remove('hidden-certs');
+                    this.textContent = translations[htmlTag.lang].viewLess;
+                } else {
+                    hiddenEngineeringCertsDiv.classList.add('hidden-certs');
+                    this.textContent = translations[htmlTag.lang].viewMore;
+                }
+            });
+            if (htmlTag.lang === 'es') {
+                toggleEngineeringButton.textContent = translations.es.viewMore;
+            } else {
+                toggleEngineeringButton.textContent = translations.en.viewMore;
+            }
+            langToggleBtn.addEventListener('click', function() {
+                let currentLang = htmlTag.getAttribute('lang');
+                let newLang = (currentLang === 'es' ? 'en' : 'es');
+                updateContent(newLang);
+            });
+            updateContent(htmlTag.getAttribute('lang'));
+        });
+    
+    </script>
+</body>
+</html>
